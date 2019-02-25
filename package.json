@@ -1,0 +1,23 @@
+{
+  "name": "amaysim-cart",
+  "version": "1.0.0",
+  "description": "Amaysim Shopping Cart Exercise",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nyc --reporter=html --reporter=text ava --verbose",
+    "test:watch": "ava --verbose --watch",
+    "ava": "nyc ava --verbose"
+  },
+  "author": "Levin Calado <levincalado@gmail.com>",
+  "repository": "https://github.com/agaphetos/amaysim-cart",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nyc": "^13.3.0"
+  },
+  "dependencies": {}
+}

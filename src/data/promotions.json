@@ -1,0 +1,41 @@
+[
+  {
+    "eligibility": {
+      "productCode": "ult_small",
+      "condition": "equal",
+      "quantity": 3
+    },
+    "reward": {
+      "type": "discount",
+      "productCode": "ult_small",
+      "target": 1,
+      "price": 0
+    }
+  },
+  {
+    "eligibility": {
+      "productCode": "ult_large",
+      "condition": "more_than",
+      "quantity": 3
+    },
+    "reward": {
+      "type": "discount",
+      "productCode": "ult_large",
+      "target": "all",
+      "price": 39.90
+    }
+  },
+  {
+    "eligibility": {
+      "productCode": "ult_medium",
+      "condition": "equal",
+      "quantity": 1
+    },
+    "reward": {
+      "type": "free",
+      "quantity": 1,
+      "productCode": "1gb",
+      "price": 0
+    }
+  }
+]
